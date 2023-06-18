@@ -1,0 +1,38 @@
+.list {
+  display: flex;
+  width: 124px;
+  display: flex;
+  align-items: center;
+  gap: 9%;
+}
+
+.list svg {
+  margin-top: 8px;
+  stroke: rgb(143, 95, 238);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.list svg:hover {
+  stroke: red;
+}
+
+@media screen and (max-width: 768px) {
+  .main_div {
+    width: 90vw;
+    border-radius: 10px;
+    border: 1px solid #000;
+    margin: 0 auto;
+    margin-top: 10%;
+    background-color: #fff;
+  }
+
+  .list svg {
+    margin-top: 8px;
+    stroke: red;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+  }
+}
